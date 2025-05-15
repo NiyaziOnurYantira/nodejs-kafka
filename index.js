@@ -28,5 +28,5 @@ app.listen(3000, async () => {
   console.log("API running at http://localhost:3000");
   await startInvoiceConsumer();
   await startEmailConsumer();
-  await startDLQConsumer(); // ✅ DLQ dinlemeyi başlat
+  await startDLQConsumer(); // DLQ dinlemeyi başlat
 });
