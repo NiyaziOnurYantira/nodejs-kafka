@@ -1,0 +1,13 @@
+node_modules/
+
+.env
+
+.vscode/
+*.log
+
+*.pid
+
+kafka-logs/
+zookeeper-logs/
+
+.DS_Store
